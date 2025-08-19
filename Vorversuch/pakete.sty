@@ -1,0 +1,44 @@
+\KOMAoptions{fontsize=11pt, paper=a4}
+    % legt Schriftgröße und Seitenvormat fest
+\KOMAoptions{DIV=10}
+    % legt Seitenabstand fest
+\KOMAoptions{listof=totoc}
+    % Abbildungs- und Tabellenverzeichnis im Inhaltsverzeichnis
+\RequirePackage[T1]{fontenc}
+    % Ermöglcht das Schreiben bestimmter Zeichen (z.B. Umlaute)
+\RequirePackage{babel}
+    % Setzt die Dokumentsprache auf Deutsch
+\RequirePackage[utf8]{inputenc}
+    % Ermöglicht Nutzung von UTF-8 Zeichen (LaTeX erwartet ASCII)
+\RequirePackage[autostyle=true]{csquotes}
+    % wichtig für richtige Formatierung von Anführungszeichen
+\RequirePackage{newtxtext}
+    % Schönerer Schriftstil im Text
+\RequirePackage{amsmath}
+    % Erlaubt das Schreiben vieler mathematischer Befehle
+\RequirePackage{mathtools}
+    % Erweitert {amsmath} vorallem im Bereich der Matrizen und Schreiben von Indizes
+\RequirePackage{newtxmath}
+    % Schönerer Schriftstyl in mathematischen Formeln
+\RequirePackage{graphicx}
+    % Einfaches einbinden von Bildern
+\graphicspath{{figs/}}
+    % legt den Dateipfad für die Bilder fest
+\RequirePackage[backend=biber, style=numeric]{biblatex}
+    % Erlaubt es, automatisch auf Einträge einer bib-Datei zu verweisen
+\RequirePackage{booktabs}
+    % Schönere Tabellen
+\RequirePackage{siunitx}
+    % Intelligentes Setzen von Zahlen und Einheiten
+\sisetup{locale = DE}
+    % Einheiten werden nach deutschem Standard gesetzt
+\RequirePackage[ISO]{diffcoeff}
+    % \diff Befehl ist so verwendbar
+\RequirePackage{hyperref}
+    % Klickbare und einfach zu schreibende Querverweise
+\RequirePackage[all]{hypcap}
+    % Noch besseres setzen von Querverweisen
+\RequirePackage{siunitx}
+    % Intelligentes Setzen von Zahlen und Einheiten.
+\RequirePackage{subfiles}
+\newcommand{\teq}{\;=\;} 

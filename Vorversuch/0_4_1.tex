@@ -1,0 +1,43 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{0.4.1}
+\subsection{a}
+Wir bauen eine simple Schaltung aus Oszilloskop, Funktionsgenerator, Koaxialkabel mit entsprechendem Abschluss und RC-Filter auf. Die Schaltung dazu sieht wie folgt aus:\\
+%\center
+%\includegraphics[]{}
+\\
+Wir messen einen Rechteckimpuls bei $2 MHz$ und $4 V_{pp}$. 
+\subsection{b}
+
+Wir können dem Diagramm die Anstiegszeit BLOP entnehmen.
+
+\subsection{c}
+Nun beobachten wir, wie hoch die Dämpfung durch ein vorgeschaltetes RC-Glied, also ein Tiefpassfilter, ist. \\
+Die Funktionsgeneratorspannung beträgt $4 V_{pp}$
+\begin{table}[]
+    \centering
+    \begin{tabular}{c|c}
+         $Hz$ & $V_S$ \hline\\
+         1e2 & 2.00 \\
+         1e3 & 1.96 \\
+         3e3 & 1.91 \\
+         1e4 & 1.63 \\
+         2e4 & 1.15 \\
+         3e4 & 0.88 \\
+         5e4 & o.56 \\
+         7e4 & 0.40 \\
+         9e4 & 0.32 \\
+         1e5 & 0.32 \\
+         1.5e5 & 0.20 \\
+         2e5 & 0.16 \\
+         2.5e5 & 0.12 \\
+         3.5e5 & 0.09 \\
+         7.5e5 & 0.04
+         
+    \end{tabular}
+    \caption{Caption}
+    \label{tab:my_label}
+\end{table}
+\end{document}
