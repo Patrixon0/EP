@@ -29,6 +29,33 @@
 \section{B}
 \section{C}
 % Theo
+
+\subsection{a}
+\subsection{b}
+\subsection{c}
+
+Reihenschaltung: Der Gesamtstrom $I$ der Schaltung fließt durch Diode D und Widerstand $R$:
+
+\[
+I = \frac{U_D}{R_D} = \frac{U_R}{R} = \frac{U{R + R_D}}
+\]
+
+Die Kennlinie ist also fast wie bei der Diode, nur der Anstieg ab der Schwellenspannung ist kleiner.
+\subsection{d}
+
+Parallelschaltung: Der Gesamtstrom $I$ setzt sich aus dem Strom durch die Diode $I_D$ und den Strom durch den Widerstand $I_R$ zusammen:
+
+\[
+I = I_D + I_R = \frac{U_D}{R_D} + \frac{U_R}{R} = \frac{U_D}{R_D} + \frac{U - U_D}{R}
+\]
+
+Die einzelnen Kennlinien von $R$ und $D$ werden also lediglich addiert.
+
+
+\subsection{e}
+\subsection{f}
+
+
 \section{D}
 % Theo
 \section{E}
@@ -39,5 +66,19 @@
 % Theo
 \section{J}
 % Theo
+Es handelt sich um eine Spannungsteilerschaltung:
+
+\[
+U' = U_0 \cdot \frac{R_L}{R + R_L}
+\]
+
+Extremwerte:
+
+\begin{itemize}
+    \item $R_L \rightarrow 0 \Rightarrow U' \rightarrow 0$
+    \item $R_L \rightarrow \infty \Rightarrow U' \rightarrow U_0$
+\end{itemize}
+
+
 \section{K}
 \end{document}
