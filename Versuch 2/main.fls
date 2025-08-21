@@ -260,6 +260,12 @@ INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 OUTPUT main.bcf
+INPUT ./main.out
+INPUT ./main.out
+INPUT main.out
+INPUT main.out
+INPUT ./main.out
+INPUT ./main.out
 OUTPUT main.out
 OUTPUT main.pdf
 INPUT /usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
@@ -315,10 +321,14 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
 OUTPUT main.toc
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT /usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb

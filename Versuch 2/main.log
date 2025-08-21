@@ -1047,6 +1047,7 @@ No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 Package hyperref Info: Link coloring OFF on input line 11.
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1058,7 +1059,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
 (scrreprt)           before \begin{document} on input line 11.
-(/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
+ (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
@@ -1148,8 +1149,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
-No file main.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -1162,32 +1162,17 @@ No file main.toc.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29680 strings out of 475171
- 568227 string characters out of 5767096
- 1501133 words of memory out of 5000000
- 52342 multiletter control sequences out of 15000+600000
+ 29688 strings out of 475171
+ 568323 string characters out of 5767096
+ 1501179 words of memory out of 5000000
+ 52344 multiletter control sequences out of 15000+600000
  589339 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,7n,107p,10944b,1171s stack positions out of 10000i,1000n,20000p,200000b,200000s
