@@ -24,6 +24,12 @@
     % Einfaches einbinden von Bildern
 \graphicspath{{figs/}}
     % legt den Dateipfad für die Bilder fest
+\RequirePackage{caption}
+    % Erlaubt das Setzen von Bildunterschriften
+\RequirePackage{subcaption}
+    % Erlaubt das Setzen von Bildunterschriften bei mehreren Bildern
+\RequirePackage{float}
+    % Erlaubt das Setzen von Bildern an bestimmten Positionen
 \RequirePackage[backend=biber, style=numeric]{biblatex}
     % Erlaubt es, automatisch auf Einträge einer bib-Datei zu verweisen
 \RequirePackage{booktabs}
@@ -41,4 +47,4 @@
 \RequirePackage{siunitx}
     % Intelligentes Setzen von Zahlen und Einheiten.
 \RequirePackage{subfiles}
-\newcommand{\teq}{\;=\;} 
+\newcommand{\teq}{\;=\;}

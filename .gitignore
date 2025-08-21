@@ -4,11 +4,11 @@
 *.fls
 *.log
 *.synctex.gz
-Versuch 2/main.aux
-Versuch 2/main.bcf
-Versuch 2/main.fdb_latexmk
-Versuch 2/main.fls
-Versuch 2/main.log
-Versuch 2/main.out
+*.toc
+*.run.xml
+*.bcf
+*.out
+*.bbl
+*.blg
 
 
