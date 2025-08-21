@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1755772181.23373 "main.bcf" "main.bbl" "main" 1755772184.18944 2
-  "main.bcf" 1755772184.1432 107988 2bb852252d22cf27576c35b7f06a6ac5 "pdflatex"
+["biber main"] 1755772298.54744 "main.bcf" "main.bbl" "main" 1755772298.54934 2
+  "main.bcf" 1755772298.48788 107988 2bb852252d22cf27576c35b7f06a6ac5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1755772183.23123 "/home/patrixon/Documents/Unin/EP/Versuch 2/main.tex" "main.pdf" "main" 1755772184.18966 0
-  "/home/patrixon/Documents/Unin/EP/Versuch 2/main.tex" 1755772180.09552 455 066078502c69efeebf4a21cc8f4a9e2d ""
+["pdflatex"] 1755772297.54783 "/home/patrixon/Documents/Unin/EP/Versuch 2/main.tex" "main.pdf" "main" 1755772298.54941 0
+  "/home/patrixon/Documents/Unin/EP/Versuch 2/main.tex" 1755772294.33379 588 6baacf962869dd90601309601a6d4029 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1742685315 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1742685315 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -149,12 +149,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1751658827 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1751658780 2008233 f3160d144a01bbd93547c122b3e88d0a ""
-  "main.aux" 1755772184.14121 516 fa5af3fa479afaf9f27d6343f81af249 "pdflatex"
+  "main.aux" 1755772298.48488 2636 b4a47f9c3551b58666fb5ba1f6ca12b9 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.out" 1755772184.0782 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1755772184.14447 2193 f15513bfc5eeff42100a2f20003f31bb "pdflatex"
-  "main.tex" 1755772180.09552 455 066078502c69efeebf4a21cc8f4a9e2d ""
-  "main.toc" 1755772184.14447 91 995f7a887fffd3b519c9bc0a9d70be60 "pdflatex"
+  "main.out" 1755772298.39988 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1755772294.33379 588 6baacf962869dd90601309601a6d4029 ""
+  "main.toc" 1755772298.48931 766 cfa5fab7c05b451657489f0ab98947a7 "pdflatex"
   "pakete.sty" 1755771664.5284 1757 12761d9d8d6b7a32e260c81903ed5764 ""
   (generated)
   "main.aux"
