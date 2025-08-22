@@ -96,3 +96,48 @@ Die Ursache hierfür ist uns nicht bekannt.
 % sondern nur für Gleichspannungen, und die Messung daher nicht korrekt ist.
 
 Als Zenerspannung erhalten wir einen abgelesenen Wert von $(2,9 \pm 0,1)\si{\volt}$ (Unsicherheit abgeschätzt).
+
+
+\section{Versuchsaufgabe 3: Oszillogramm des Einweggleichrichters}
+
+Aus dem unteren Teil des Dioden-Schaltbretts wird ein Einweggleichrichter aufgebaut (siehe \ref{fig:3_gleichrichter}a).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figs/3/gleichrichter.png}
+    \caption{Ein- und Zweiweggleichrichter}
+    \label{fig:3_gleichrichter}
+\end{figure}
+
+Die gleichzurichtende Wechselspannung von \SI{15}{\volt} wird einem separaten massefreien Netzgerät entnommen (kleiner grauer Kasten). 
+Das Potentiometer auf dem Schaltbrett als variable Last für die gleichgerichtete Spannung wird auf den maximalen Wert von \SI{8}{\kilo\ohm} eingestellt.
+Es werden zusätzlich verschiedene Kondensatoren parallel zur Last hinzugeschaltet.
+Die Spannung $U$ über der Last wird mitsamt der mittleren Höhe der Gleichspannung $U_{avg}$ und der Brumm-Amplitude $U_{pp}$ am Oszillographen angezeigt:
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/3/DS0009.png}
+        \caption{ohne Kondensator}
+        \label{fig:3_C0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/3/DS0010.png}
+        \caption{$C=\SI{2,2}{\micro\farad}$}
+        \label{fig:3_C1}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/3/DS0011.png}
+        \caption{$C=\SI{22}{\micro\farad}$}
+        \label{fig:3_C2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/3/DS0012.png}
+        \caption{$C=\SI{1000}{\micro\farad}$}
+        \label{fig:3_C3}
+    \end{subfigure}
+    \caption{Oszillogramme und Werte des Einweggleichrichters}
+\end{figure}
