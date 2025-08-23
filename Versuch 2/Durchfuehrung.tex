@@ -25,6 +25,7 @@ Aus unserer Messung bei geeigneten ausgewählten Spannungswerten ergeben sich fo
 
 
 \section{Versuchsaufgabe 2: Oszillogramm der Diodenkennlinie}
+\label{sec:A2}
 
 Nun soll die Kennlinie der Diode mit einem Oszilloskop aufgenommen werden.
 Dies wird umgesetzt, indem eine Wechselspannung an die Diode angelegt wird, 
@@ -141,3 +142,64 @@ Die Spannung $U$ über der Last wird mitsamt der mittleren Höhe der Gleichspann
     \end{subfigure}
     \caption{Oszillogramme und Werte des Einweggleichrichters}
 \end{figure}
+
+Es ist wieder zu erkennen, dass die Spannungskurve in $y$-Richtung verschoben ist (siehe \ref{sec:A2}).
+Die Bereiche, in denen die Spannung 0 sein sollte, liegen im negativen Bereich.
+Das kann nicht richtig sein, da der Gleichrichter genau das verhindern sollte.
+Dadurch sind die gemessenen Werte für $U_{avg}$ unbrauchbar.
+Dennoch entspricht der zeitliche Verlauf der Kurve den Erwartungen, und auch die Brumm-Amplitude $U_{pp}$ sollte davon unbeeinflusst sein.
+Im Folgenden werden wir also nur diese Aspekte betrachten können.
+
+Ohne Kondensator (\ref{fig:3_C0}) stimmt das Oszillogramm gut mit der erwarteten Form (siehe \ref{fig:VA_D_a}) überein, 
+der positive Teil der Sinusspannung ist gut zu erkennen.
+Mit steigender angeschlossener Kapazität $C$ wird die Maximalspannung immer kleiner (auch erkennbar an den kleiner werdenden Beträgen der Werte $U_{avg}$), 
+und dementsprechend auch die Brumm-Amplitude $U_{pp}$.
+Zudem wird der Abfall der Spannung in jedem Zyklus langsamer.
+Diese beiden Resultate sind genau die Ergebnisse der Glättung durch den Kondensator.
+Auffällig ist außerdem auch, dass bei $C=\SI{1000}{\micro\farad}$ (\ref{fig:3_C3}) die Spannung im Vergleich zu den anderen Fällen nur noch sehr klein ist.
+Das liegt daran, dass der Großteil der Eingangsspannung über den großen Kondensator abfällt (der Kondensator wird geladen), und nur ein sehr kleiner Teil über die Last.
+Das Ergebnis davon ist dadurch eine Spannung, die zwar sehr geglättet ist, aber auch nur noch eine sehr kleine Amplitude hat.
+
+
+\section{Versuchsaufgabe 4: Oszillogramm des Zweiweggleichrichters}
+
+Aus dem oberen Teil des Dioden-Schaltbretts wird nun ein Zweiweggleichrichter aufgebaut (siehe \ref{fig:3_gleichrichter}b).
+Der Aufbau und die Messungen erfolgen ansonsten analog zu Versuchsaufgabe 3.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/4/DS0000.png}
+        \caption{ohne Kondensator}
+        \label{fig:4_C0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/4/DS0001.png}
+        \caption{$C=\SI{2,2}{\micro\farad}$}
+        \label{fig:4_C1}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        fehlt
+        \caption{$C=\SI{22}{\micro\farad}$}
+        \label{fig:4_C2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figs/4/DS0002.png}
+        \caption{$C=\SI{1000}{\micro\farad}$}
+        \label{fig:4_C3}
+    \end{subfigure}
+    \caption{Oszillogramme und Werte des Zweiweggleichrichters}
+\end{figure}
+
+
+Wir haben leider vergessen, ein Oszillogramm für $C=\SI{22}{\micro\farad}$ aufzunehmen.
+
+Es ist wieder die Verschiebung in $y$-Richtung zu erkennen (siehe \ref{sec:A2}).
+Die daraus resultierenden Probleme bleiben also wie bei Versuchsaufgabe 3 bestehen.
+
+Die Form der Kurven ohne Kondensator entspricht wieder gut dem erwarteten Bild (siehe \ref{fig:VA_D_b}).
+Die Auswertung kann 1:1 von Versuchsaufgabe 3 übernommen werden, da alle Beobachtungen analog sind.
